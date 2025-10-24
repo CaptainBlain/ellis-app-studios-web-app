@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean-start": "bash scripts/start.sh",
+    "stop": "bash scripts/stop.sh"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
